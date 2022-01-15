@@ -27,6 +27,10 @@
   .logo {
     margin: 10px;
   }
+  .nav-items {
+    list-style: none;
+    margin: 30px;
+}
 }
 /*-------------------- Home --------------------*/
 @media (max-width: 1150px) {
@@ -209,4 +213,13 @@
   #textarea {
     width: 280px;
   }
+}
+/*-------------------- Resources --------------------*/
+@media (max-width:450px){
+  .notes_container{
+    align-items: center;
+}
+  .resources{
+    align-items: center;
+}
 }
