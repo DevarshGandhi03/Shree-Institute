@@ -1,0 +1,212 @@
+/*-------------------- Navbar --------------------*/
+@media (max-width: 650px) {
+  .nav-list {
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: -140%;
+    z-index: 2;
+    background-color: white;
+    transition: all 0.3s ease;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .close {
+    display: block;
+    position: absolute;
+    top: 19px;
+    right: 19px;
+  }
+  .open {
+    display: block;
+    margin: 19px;
+  }
+  .logo {
+    margin: 10px;
+  }
+}
+/*-------------------- Home --------------------*/
+@media (max-width: 1150px) {
+  .content h1 {
+    font-size: 1.8rem;
+  }
+  .para {
+    font-size: 0.9rem;
+  }
+  .cont_1 {
+    height: 543px;
+  }
+}
+@media (max-width: 930px) {
+  .images,
+  .images video {
+    display: none;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .heading h1 {
+    font-size: 1.8rem;
+    color: #0f4c81;
+    text-align: center;
+  }
+  .intro h2 {
+    font-size: 1.4rem;
+  }
+  .intro h3 {
+    color: rgb(30, 30, 30);
+    margin: 5px;
+    font-size: 1rem;
+  }
+  .main_container {
+    margin: 30px 50px;
+  }
+}
+@media (max-width: 885px) {
+  .container_2 {
+    flex-direction: column;
+    margin: 0px 0px;
+  }
+  .cont_1 {
+    height: 100%;
+    margin: 5px 0px;
+    width: 80vw;
+  }
+  .main_container {
+    margin: 20px 50px;
+  }
+  .testimonial {
+    padding: 20px;
+  }
+  .intro p {
+    font-size: 0.9rem;
+}
+}
+@media (max-width: 730px) {
+  .testi_content {
+    flex-direction: column;
+    margin: 20px 0px;
+  }
+  .testimonial {
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 560px) {
+  .content h1 {
+    font-size: 1.7rem;
+  }
+  .heading h1 {
+    font-size: 1.7rem;
+}
+.intro h2 {
+    font-size: 1.3rem;
+}
+.quote i {
+    font-size: 1.2rem;
+}
+}
+@media (max-width: 460px) {
+    .content h1 span{
+        display: block;
+    }
+    .content h1{
+        text-align: center;
+    }
+    .main_container {
+        margin: 20px 10px;
+    }
+    .another-css{
+      margin: 20px 20px !important;
+    }
+    .cont_1 {
+        height: 100%;
+        margin: 5px 0px;
+        width: 100%;
+    }
+    
+
+    
+}
+/*-------------------- About --------------------*/
+@media (max-width:900px){
+  .main-about p{
+    font-size: 0.9rem;
+  }
+  .member-info p{
+    font-size: 0.9rem;
+  }
+}
+@media (max-width:800px){
+  .team_member {
+    flex-direction: column;
+}
+
+}
+
+/*-------------------- Contact --------------------*/
+@media (max-width: 900px) {
+  .contact_form form .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #textarea {
+    height: 220px;
+  }
+}
+@media (max-width: 500px) {
+  #text-f,
+  #text-l,
+  #email,
+  #tel,
+  #textarea {
+    width: 350px;
+  }
+  .heading h1 {
+    font-size: 2rem;
+    color: #0f4c81;
+  }
+  .contact_form {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 390px) {
+  #text-f,
+  #text-l,
+  #email,
+  #tel,
+  #textarea {
+    width: 320px;
+  }
+}
+@media (max-width: 360px) {
+  #text-f,
+  #text-l,
+  #email,
+  #tel,
+  #textarea {
+    width: 280px;
+  }
+}
