@@ -215,11 +215,3 @@
   }
 }
 /*-------------------- Resources --------------------*/
-@media (max-width:450px){
-  .notes_container{
-    align-items: center;
-}
-  .resources{
-    align-items: center;
-}
-}
