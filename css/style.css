@@ -12,6 +12,14 @@
   align-items: center;
   justify-content: space-between;
 }
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  background-color: white;
+}
 .logo {
   height: 50px;
   width: 65px;
