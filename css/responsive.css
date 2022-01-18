@@ -188,6 +188,14 @@
   #textarea {
     height: 220px;
   }
+  #text-f,
+  #text-l,
+  #email,
+  #tel,
+  #textarea {
+    width: 70vw;
+  }
+  
 }
 @media (max-width: 500px) {
   #text-f,
@@ -195,7 +203,7 @@
   #email,
   #tel,
   #textarea {
-    width: 350px;
+    width: 90vw;
   }
   .heading h1 {
     font-size: 2rem;
@@ -206,24 +214,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-}
-@media (max-width: 390px) {
-  #text-f,
-  #text-l,
-  #email,
-  #tel,
-  #textarea {
-    width: 320px;
-  }
-}
-@media (max-width: 360px) {
-  #text-f,
-  #text-l,
-  #email,
-  #tel,
-  #textarea {
-    width: 280px;
   }
 }
 /*-------------------- Resources --------------------*/
