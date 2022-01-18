@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Sora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Header section */
 .navbar {
@@ -52,15 +53,15 @@ header{
   font-size: 0.93rem;
 }
 .nav-items a:hover {
-  color: #0f4c81;
+  color:  #FF6F61;
 }
 .nav-items a::after {
   content: "";
   position: absolute;
-  background-color: #0f4c81;
+  background-color:  #FF6F61;
   width: 100%;
   text-align: center;
-  height: 3px;
+  height: 2px;
   border-radius: 2px;
   bottom: -10px;
   left: 0;
@@ -81,7 +82,7 @@ header{
 }
 .fa-bars:hover,
 .fa-times:hover {
-  color: #0f4c81;
+  color:  #FF6F61;
 }
 .fa-times {
   color: rgb(7, 7, 7);
@@ -118,25 +119,30 @@ header{
   border-radius: 5px;
 }
 .content h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin: 0px 0px 10px 0px;
-  color: rgb(20, 20, 20);
+  color: black;
 }
 .content h1 span {
-  color: #0f4c81;
+  color:  #FF6F61;
 }
 
 .btn-primary {
-  background-color: #007bff;
-  color: white;
+  background-color:white;
+  color: #FF6F61;
   border-radius: 5px;
   padding: 10px;
   margin: 20px 0px;
-  border: 1px solid #007bff;
+  border: 2px solid #FF6F61;
   transition: all 0.2s ease-in-out;
+  font-size: 0.7rem;
+  cursor: pointer;
+  font-weight: 500;
 }
 .btn-primary:hover {
-  border: 1px solid white;
+  background-color: #FF6F61;
+  color: white;
+  /* border: 2px solid white; */
 }
 .btn-primary a {
   text-decoration: none;
@@ -147,6 +153,7 @@ header{
   line-height: 1.5rem;
   text-align: left;
   color: gray;
+  font-size: 0.92rem;
 }
 .content {
   margin-right: 50px;
@@ -154,8 +161,8 @@ header{
 /* Contact Us */
 
 .heading h1 {
-  font-size: 2.3rem;
-  color: #0f4c81;
+  font-size: 2rem;
+  color: black;
 }
 .heading {
   margin: 10px;
@@ -260,6 +267,7 @@ header{
   padding: 0px 15px;
   height: 502px;
   width: 100%;
+  
 
   /* box-shadow: 10px 5px 5px rgb(20, 20, 20); */
 }
@@ -307,7 +315,7 @@ header{
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background-color: rgb(230, 230, 230);
+  background-color: #fee5e3;
   padding: 50px;
   height: 100%;
   width: 50%;
