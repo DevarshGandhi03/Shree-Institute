@@ -53,15 +53,15 @@ header{
   font-size: 0.93rem;
 }
 .nav-items a:hover {
-  color:  #FF6F61;
+  color:  #1a73e8;
 }
 .nav-items a::after {
   content: "";
   position: absolute;
-  background-color:  #FF6F61;
+  background-color:  #1a73e8;
   width: 100%;
   text-align: center;
-  height: 2px;
+  height: 2.5px;
   border-radius: 2px;
   bottom: -10px;
   left: 0;
@@ -82,7 +82,7 @@ header{
 }
 .fa-bars:hover,
 .fa-times:hover {
-  color:  #FF6F61;
+  color:  #1a73e8;
 }
 .fa-times {
   color: rgb(7, 7, 7);
@@ -124,23 +124,23 @@ header{
   color: black;
 }
 .content h1 span {
-  color:  #FF6F61;
+  color:  #1a73e8;
 }
 
 .btn-primary {
   background-color:white;
-  color: #FF6F61;
+  color: #1a73e8;
   border-radius: 5px;
   padding: 10px;
   margin: 20px 0px;
-  border: 2px solid #FF6F61;
+  border: 2px solid #1a73e8;
   transition: all 0.2s ease-in-out;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   cursor: pointer;
   font-weight: 500;
 }
 .btn-primary:hover {
-  background-color: #FF6F61;
+  background-color: #1a73e8;
   color: white;
   /* border: 2px solid white; */
 }
@@ -235,14 +235,15 @@ header{
   background-color: #bee1ff;
 }
 #submit {
-  background-color: #007bff;
+  background-color:#1a73e8 ;
   color: white;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
   width: 100px;
-  border: 1px solid #007bff;
+  border: 1px solid #1a73e8;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 #submit:hover {
   border: 1px solid white;
@@ -315,7 +316,7 @@ header{
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #fee5e3;
+  background-color:  rgb(240, 240, 240);
   padding: 50px;
   height: 100%;
   width: 50%;
@@ -403,7 +404,7 @@ header{
   margin: 10px 0px;
   padding: 20px;
   border-radius: 5px;
-  background-color: #fee5e3;
+  background-color: rgb(240, 240, 240);
 }
 .member-img img{
  height: 200px;
