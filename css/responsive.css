@@ -120,6 +120,9 @@
   }
 }
 @media (max-width: 560px) {
+  .content img{
+    width: 80vw;
+  }
   .content h1 {
     font-size: 1.7rem;
   }
@@ -135,7 +138,7 @@
 }
 @media (max-width: 460px) {
   .content img{
-    width: 70vw;
+    width: 90vw;
   }
     .content h1 span{
         display: block;
