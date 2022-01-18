@@ -123,6 +123,9 @@ header{
   margin: 0px 0px 10px 0px;
   color: black;
 }
+.content img{
+  width: 40vw;
+}
 .content h1 span {
   color:  #1a73e8;
 }
