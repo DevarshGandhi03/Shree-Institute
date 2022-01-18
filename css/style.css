@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Sora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* Header section */
 .navbar {
@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
 }
-header{
+header {
   position: sticky;
   top: 0;
   left: 0;
@@ -53,12 +53,12 @@ header{
   font-size: 0.93rem;
 }
 .nav-items a:hover {
-  color:  #1a73e8;
+  color: #1a73e8;
 }
 .nav-items a::after {
   content: "";
   position: absolute;
-  background-color:  #1a73e8;
+  background-color: #1a73e8;
   width: 100%;
   text-align: center;
   height: 2.5px;
@@ -82,7 +82,7 @@ header{
 }
 .fa-bars:hover,
 .fa-times:hover {
-  color:  #1a73e8;
+  color: #1a73e8;
 }
 .fa-times {
   color: rgb(7, 7, 7);
@@ -123,15 +123,15 @@ header{
   margin: 0px 0px 10px 0px;
   color: black;
 }
-.content img{
+.content img {
   width: 40vw;
 }
 .content h1 span {
-  color:  #1a73e8;
+  color: #1a73e8;
 }
 
 .btn-primary {
-  background-color:white;
+  background-color: white;
   color: #1a73e8;
   border-radius: 5px;
   padding: 10px;
@@ -238,7 +238,7 @@ header{
   background-color: #bee1ff;
 }
 #submit {
-  background-color:#1a73e8 ;
+  background-color: #1a73e8;
   color: white;
   border-radius: 5px;
   padding: 10px;
@@ -271,7 +271,6 @@ header{
   padding: 0px 15px;
   height: 502px;
   width: 100%;
-  
 
   /* box-shadow: 10px 5px 5px rgb(20, 20, 20); */
 }
@@ -319,7 +318,7 @@ header{
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background-color:  rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
   padding: 50px;
   height: 100%;
   width: 50%;
@@ -368,7 +367,7 @@ header{
 .right-foot p {
   line-height: 1.4rem;
 }
-.footer p{
+.footer p {
   font-size: 0.87rem;
   color: rgb(50, 50, 50);
 }
@@ -392,14 +391,14 @@ header{
   margin: 10px;
   color: rgb(50, 50, 50);
 }
-.team-about{
+.team-about {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 20px 0px;
 }
-.team_member{
+.team_member {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -409,26 +408,28 @@ header{
   border-radius: 5px;
   background-color: rgb(240, 240, 240);
 }
-.member-img img{
- height: 200px;
+.member-img img {
+  height: 200px;
   border-radius: 200px;
 }
-.member-img{
+.member-img {
   margin-right: 20px;
 }
-.member-info h3,.member-info h4,.member-info p{
+.member-info h3,
+.member-info h4,
+.member-info p {
   margin: 5px;
 }
-.member-info p{
+.member-info p {
   line-height: 1.4rem;
   color: rgb(50, 50, 50);
 }
-.member-info p b{
+.member-info p b {
   color: rgb(30, 30, 30);
 }
-.member-info h3{
-  color:rgb(20, 20, 20) ;
+.member-info h3 {
+  color: rgb(20, 20, 20);
 }
-.member-info h4{
+.member-info h4 {
   color: rgb(30, 30, 30);
 }

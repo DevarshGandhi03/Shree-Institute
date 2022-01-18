@@ -30,7 +30,7 @@
   .nav-items {
     list-style: none;
     margin: 30px;
-}
+  }
 }
 /*-------------------- Home --------------------*/
 @media (max-width: 1150px) {
@@ -49,7 +49,7 @@
   .images video {
     display: none;
   }
-  .content img{
+  .content img {
     width: 50vw;
   }
   .content {
@@ -87,7 +87,7 @@
     margin: 5px 0px;
     width: 80vw;
   }
-  .content img{
+  .content img {
     width: 60vw;
   }
   .main_container {
@@ -98,7 +98,7 @@
   }
   .intro p {
     font-size: 0.9rem;
-}
+  }
 }
 @media (max-width: 730px) {
   .testi_content {
@@ -120,7 +120,7 @@
   }
 }
 @media (max-width: 560px) {
-  .content img{
+  .content img {
     width: 80vw;
   }
   .content h1 {
@@ -128,53 +128,49 @@
   }
   .heading h1 {
     font-size: 1.7rem;
-}
-.intro h2 {
+  }
+  .intro h2 {
     font-size: 1.3rem;
-}
-.quote i {
+  }
+  .quote i {
     font-size: 1.2rem;
-}
+  }
 }
 @media (max-width: 460px) {
-  .content img{
+  .content img {
     width: 90vw;
   }
-    .content h1 span{
-        display: block;
-    }
-    .content h1{
-        text-align: center;
-    }
-    .main_container {
-        margin: 20px 10px;
-    }
-    .another-css{
-      margin: 20px 20px !important;
-    }
-    .cont_1 {
-        height: 100%;
-        margin: 5px 0px;
-        width: 100%;
-    }
-    
-
-    
+  .content h1 span {
+    display: block;
+  }
+  .content h1 {
+    text-align: center;
+  }
+  .main_container {
+    margin: 20px 10px;
+  }
+  .another-css {
+    margin: 20px 20px !important;
+  }
+  .cont_1 {
+    height: 100%;
+    margin: 5px 0px;
+    width: 100%;
+  }
 }
 /*-------------------- About --------------------*/
-@media (max-width:900px){
-  .main-about p{
+@media (max-width: 900px) {
+  .main-about p {
     font-size: 0.9rem;
   }
-  .member-info p{
+  .member-info p {
     font-size: 0.9rem;
   }
 }
-@media (max-width:800px){
+@media (max-width: 800px) {
   .team_member {
     flex-direction: column;
-}
-
+  }
 }
 
 /*-------------------- Contact --------------------*/
@@ -195,7 +191,6 @@
   #textarea {
     width: 70vw;
   }
-  
 }
 @media (max-width: 500px) {
   #text-f,
@@ -216,4 +211,16 @@
     align-items: center;
   }
 }
-/*-------------------- Resources --------------------*/
+/* Footer */
+
+@media (max-width: 320px) {
+  .left-foot {
+    margin: 10px;
+  }
+  .right-foot {
+    margin: 10px;
+  }
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
