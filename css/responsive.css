@@ -138,9 +138,6 @@
   .quote i {
     font-size: 1.2rem;
   }
-  .testimonial {
-    height: 30vh;
-  }
 }
 @media (max-width: 460px) {
   .content img {
