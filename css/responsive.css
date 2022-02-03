@@ -139,7 +139,7 @@
     font-size: 1.2rem;
   }
   .testimonial {
-    height: 50vh;
+    height: 30vh;
   }
 }
 @media (max-width: 460px) {
